@@ -1,0 +1,239 @@
+*------------------------------------------------------------*
+NODE = 37
+*------------------------------------------------------------*
+(O IS 1)
+AND (LOC IS 1)
+AND MISSING(SCALP) OR (SCALP IS 0)
+AND MISSING(HEADS) OR (HEADS IS 0)
+AND MISSING(HD) OR (HD IS 0)
+AND MISSING(HEADACHE) OR (HEADACHE IS 0)
+AND MISSING(COLLISION) OR (COLLISION IS 0)
+AND MISSING(CHI) OR (CHI IS 0)
+AND MISSING(CONCUSSION) OR (CONCUSSION IS 0)
+AND MISSING(HEAD) OR (HEAD IS 0)
+    PREDICTED VALUE IS 1
+    PREDICTED 0 = 0.01844( 4.757/258.023)
+    PREDICTED 1 = 0.9816( 253.266/258.023)
+*------------------------------------------------------------*
+NODE = 38
+*------------------------------------------------------------*
+MISSING(O) OR (O IS 0)
+AND (LOC IS 1)
+AND MISSING(SCALP) OR (SCALP IS 0)
+AND MISSING(HEADS) OR (HEADS IS 0)
+AND MISSING(HD) OR (HD IS 0)
+AND MISSING(HEADACHE) OR (HEADACHE IS 0)
+AND MISSING(COLLISION) OR (COLLISION IS 0)
+AND MISSING(CHI) OR (CHI IS 0)
+AND MISSING(CONCUSSION) OR (CONCUSSION IS 0)
+AND MISSING(HEAD) OR (HEAD IS 0)
+    PREDICTED VALUE IS 0
+    PREDICTED 0 = 0.7759( 585.39/754.454)
+    PREDICTED 1 = 0.2241( 169.064/754.454)
+*------------------------------------------------------------*
+NODE = 33
+*------------------------------------------------------------*
+(SCALP IS 1)
+AND MISSING(HEADS) OR (HEADS IS 0)
+AND MISSING(HD) OR (HD IS 0)
+AND MISSING(HEADACHE) OR (HEADACHE IS 0)
+AND MISSING(COLLISION) OR (COLLISION IS 0)
+AND MISSING(CHI) OR (CHI IS 0)
+AND MISSING(CONCUSSION) OR (CONCUSSION IS 0)
+AND MISSING(HEAD) OR (HEAD IS 0)
+    PREDICTED VALUE IS 1
+    PREDICTED 0 = 0.09162( 32.3656/353.268)
+    PREDICTED 1 = 0.9084( 320.902/353.268)
+*------------------------------------------------------------*
+NODE = 36
+*------------------------------------------------------------*
+MISSING(LOC) OR (LOC IS 0)
+AND MISSING(SCALP) OR (SCALP IS 0)
+AND MISSING(HEADS) OR (HEADS IS 0)
+AND MISSING(HD) OR (HD IS 0)
+AND MISSING(HEADACHE) OR (HEADACHE IS 0)
+AND MISSING(COLLISION) OR (COLLISION IS 0)
+AND MISSING(CHI) OR (CHI IS 0)
+AND MISSING(CONCUSSION) OR (CONCUSSION IS 0)
+AND MISSING(HEAD) OR (HEAD IS 0)
+    PREDICTED VALUE IS 0
+    PREDICTED 0 = 0.9931( 227019/228589)
+    PREDICTED 1 = 0.006868( 1570.02/228589)
+*------------------------------------------------------------*
+NODE = 27
+*------------------------------------------------------------*
+(R IS 1)
+AND (HD IS 1)
+AND MISSING(HEADACHE) OR (HEADACHE IS 0)
+AND MISSING(COLLISION) OR (COLLISION IS 0)
+AND MISSING(CHI) OR (CHI IS 0)
+AND MISSING(CONCUSSION) OR (CONCUSSION IS 0)
+AND MISSING(HEAD) OR (HEAD IS 0)
+    PREDICTED VALUE IS 0
+    PREDICTED 0 = 1( 201.63/201.63)
+    PREDICTED 1 = 0( 0/201.63)
+*------------------------------------------------------------*
+NODE = 28
+*------------------------------------------------------------*
+MISSING(R) OR (R IS 0)
+AND (HD IS 1)
+AND MISSING(HEADACHE) OR (HEADACHE IS 0)
+AND MISSING(COLLISION) OR (COLLISION IS 0)
+AND MISSING(CHI) OR (CHI IS 0)
+AND MISSING(CONCUSSION) OR (CONCUSSION IS 0)
+AND MISSING(HEAD) OR (HEAD IS 0)
+    PREDICTED VALUE IS 1
+    PREDICTED 0 = 0.07588( 67.2099/885.692)
+    PREDICTED 1 = 0.9241( 818.482/885.692)
+*------------------------------------------------------------*
+NODE = 25
+*------------------------------------------------------------*
+(LAC IS 1)
+AND MISSING(FX) OR (FX IS 0)
+AND MISSING(CONT) OR (CONT IS 0)
+AND (COLLISION IS 1)
+AND MISSING(CHI) OR (CHI IS 0)
+AND MISSING(CONCUSSION) OR (CONCUSSION IS 0)
+AND MISSING(HEAD) OR (HEAD IS 0)
+    PREDICTED VALUE IS 0
+    PREDICTED 0 = 1( 167.86/167.86)
+    PREDICTED 1 = 0( 0/167.86)
+*------------------------------------------------------------*
+NODE = 21
+*------------------------------------------------------------*
+(FX IS 1)
+AND MISSING(CONT) OR (CONT IS 0)
+AND (COLLISION IS 1)
+AND MISSING(CHI) OR (CHI IS 0)
+AND MISSING(CONCUSSION) OR (CONCUSSION IS 0)
+AND MISSING(HEAD) OR (HEAD IS 0)
+    PREDICTED VALUE IS 0
+    PREDICTED 0 = 1( 253.702/253.702)
+    PREDICTED 1 = 0( 0/253.702)
+*------------------------------------------------------------*
+NODE = 17
+*------------------------------------------------------------*
+(CONT IS 1)
+AND (COLLISION IS 1)
+AND MISSING(CHI) OR (CHI IS 0)
+AND MISSING(CONCUSSION) OR (CONCUSSION IS 0)
+AND MISSING(HEAD) OR (HEAD IS 0)
+    PREDICTED VALUE IS 0
+    PREDICTED 0 = 1( 412.857/412.857)
+    PREDICTED 1 = 0( 0/412.857)
+*------------------------------------------------------------*
+NODE = 11
+*------------------------------------------------------------*
+(CHI IS 1)
+AND MISSING(CONCUSSION) OR (CONCUSSION IS 0)
+AND MISSING(HEAD) OR (HEAD IS 0)
+    PREDICTED VALUE IS 1
+    PREDICTED 0 = 0( 0/1128.37)
+    PREDICTED 1 = 1( 1128.37/1128.37)
+*------------------------------------------------------------*
+NODE = 8
+*------------------------------------------------------------*
+MISSING(CONCUSSION) OR (CONCUSSION IS 0)
+AND (STRAIN IS 1)
+AND (HEAD IS 1)
+    PREDICTED VALUE IS 0
+    PREDICTED 0 = 0.6866( 653.682/952.031)
+    PREDICTED 1 = 0.3134( 298.349/952.031)
+*------------------------------------------------------------*
+NODE = 14
+*------------------------------------------------------------*
+MISSING(FX) OR (FX IS 0)
+AND MISSING(CONCUSSION) OR (CONCUSSION IS 0)
+AND MISSING(STRAIN) OR (STRAIN IS 0)
+AND (HEAD IS 1)
+    PREDICTED VALUE IS 1
+    PREDICTED 0 = 0.06862( 1493.97/21772.5)
+    PREDICTED 1 = 0.9314( 20278.5/21772.5)
+*------------------------------------------------------------*
+NODE = 31
+*------------------------------------------------------------*
+(NECK IS 1)
+AND MISSING(LAC) OR (LAC IS 0)
+AND MISSING(FX) OR (FX IS 0)
+AND MISSING(CONT) OR (CONT IS 0)
+AND (COLLISION IS 1)
+AND MISSING(CHI) OR (CHI IS 0)
+AND MISSING(CONCUSSION) OR (CONCUSSION IS 0)
+AND MISSING(HEAD) OR (HEAD IS 0)
+    PREDICTED VALUE IS 0
+    PREDICTED 0 = 0.8826( 127.7/144.692)
+    PREDICTED 1 = 0.1174( 16.9919/144.692)
+*------------------------------------------------------------*
+NODE = 32
+*------------------------------------------------------------*
+MISSING(NECK) OR (NECK IS 0)
+AND MISSING(LAC) OR (LAC IS 0)
+AND MISSING(FX) OR (FX IS 0)
+AND MISSING(CONT) OR (CONT IS 0)
+AND (COLLISION IS 1)
+AND MISSING(CHI) OR (CHI IS 0)
+AND MISSING(CONCUSSION) OR (CONCUSSION IS 0)
+AND MISSING(HEAD) OR (HEAD IS 0)
+    PREDICTED VALUE IS 1
+    PREDICTED 0 = 0.05777( 90.639/1568.83)
+    PREDICTED 1 = 0.9422( 1478.19/1568.83)
+*------------------------------------------------------------*
+NODE = 13
+*------------------------------------------------------------*
+(FX IS 1)
+AND MISSING(CONCUSSION) OR (CONCUSSION IS 0)
+AND MISSING(STRAIN) OR (STRAIN IS 0)
+AND (HEAD IS 1)
+    PREDICTED VALUE IS 0
+    PREDICTED 0 = 0.9384( 217.309/231.58)
+    PREDICTED 1 = 0.06162( 14.271/231.58)
+*------------------------------------------------------------*
+NODE = 29
+*------------------------------------------------------------*
+(HEADS IS 1)
+AND MISSING(HD) OR (HD IS 0)
+AND MISSING(HEADACHE) OR (HEADACHE IS 0)
+AND MISSING(COLLISION) OR (COLLISION IS 0)
+AND MISSING(CHI) OR (CHI IS 0)
+AND MISSING(CONCUSSION) OR (CONCUSSION IS 0)
+AND MISSING(HEAD) OR (HEAD IS 0)
+    PREDICTED VALUE IS 1
+    PREDICTED 0 = 0.08835( 38.5606/436.437)
+    PREDICTED 1 = 0.9116( 397.876/436.437)
+*------------------------------------------------------------*
+NODE = 7
+*------------------------------------------------------------*
+(CONCUSSION IS 1)
+AND (STRAIN IS 1)
+AND (HEAD IS 1)
+    PREDICTED VALUE IS 1
+    PREDICTED 0 = 0( 0/293.915)
+    PREDICTED 1 = 1( 293.915/293.915)
+*------------------------------------------------------------*
+NODE = 19
+*------------------------------------------------------------*
+(HEADACHE IS 1)
+AND MISSING(COLLISION) OR (COLLISION IS 0)
+AND MISSING(CHI) OR (CHI IS 0)
+AND MISSING(CONCUSSION) OR (CONCUSSION IS 0)
+AND MISSING(HEAD) OR (HEAD IS 0)
+    PREDICTED VALUE IS 1
+    PREDICTED 0 = 0.07464( 76.7239/1027.95)
+    PREDICTED 1 = 0.9254( 951.228/1027.95)
+*------------------------------------------------------------*
+NODE = 5
+*------------------------------------------------------------*
+(CONCUSSION IS 1)
+AND MISSING(HEAD) OR (HEAD IS 0)
+    PREDICTED VALUE IS 1
+    PREDICTED 0 = 0( 0/10111.8)
+    PREDICTED 1 = 1( 10111.8/10111.8)
+*------------------------------------------------------------*
+NODE = 9
+*------------------------------------------------------------*
+(CONCUSSION IS 1)
+AND MISSING(STRAIN) OR (STRAIN IS 0)
+AND (HEAD IS 1)
+    PREDICTED VALUE IS 1
+    PREDICTED 0 = 0.001413( 16.9919/12025.2)
+    PREDICTED 1 = 0.9986( 12008.2/12025.2)
